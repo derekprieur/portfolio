@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek Prieur Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Screenshot 2022-05-24 163925.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Derek Prieur</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">software developer & tester</p>
+        <img src="img/Screenshot 2022-05-24 16352345.png" alt="a picture of cool Derek" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-end development</h3>
+                <p>Producing HTML, CSS and JavaScript for websites & web apps so that users can see and interact with
+                    them directly</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Back-end development</h3>
+                <p>Creating, maintaining, testing, and debugging the entire back end with Python, C#, SQL & Java</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Software testing</h3>
+                <p>Verifying systems with the purpose of identifying any errors, gaps or missing requirement versus the
+                    actual requirement</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Developer & Tester from the United States</p>
+
+        <div class="about-me__body">
+            <p>I am a twenty six year old currently working as a QA Analyst at OptionSoft Technologies. My favorite
+                subjects have always been math, science & tech. This year I have become an avid reader and finish a
+                book once per week (some of my other hobbies including exercise, cooking/veganism, meditation &
+                finance).
+            </p>
+            <p>I am very organized and goal-oriented both professionally and personally. Striving to improve myself
+                everyday, even by just 1%, is something I take very seriously. There is so much to do and learn in
+                life so I plan to make the most of it!
+            </p>
+        </div>
+
+        <img src="img/mountain.png" alt="Derek climbing" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/blackjack.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item2.html" class="portfolio__item">
+                <img src="img/portfolio-2.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-item3.html" class="portfolio__item">
+                <img src="img/portfolio-3.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="portfolio-item4.html" class="portfolio__item">
+                <img src="img/portfolio-4.jpg" alt="" class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="mailto:DPrieur123@gmail.com" class="footer__link">DPrieur123@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/derekprieur_">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/derekprieur">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
